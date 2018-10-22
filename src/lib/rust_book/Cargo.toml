@@ -1,0 +1,7 @@
+[package]
+name = "rust_book"
+version = "0.1.0"
+authors = ["Davis St. Aubin <Davis.StAubin@spanning.com>"]
+
+[dependencies]
+rand = "0.5.5"

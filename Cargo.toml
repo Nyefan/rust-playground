@@ -1,0 +1,9 @@
+[package]
+name = "untitled1"
+version = "0.1.0"
+authors = ["Davis St. Aubin <Davis.StAubin@spanning.com>"]
+
+[dependencies]
+rand = "0.5.5"
+rust_book = {path = "src/lib/rust_book/"}
+lists = {path = "src/lib/lists/"}
