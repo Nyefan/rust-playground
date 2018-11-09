@@ -3,7 +3,6 @@ use std::collections::HashMap;
 pub fn test() {
     demo_vec();
     demo_string();
-    demo_hash_map();
 }
 
 fn demo_vec() {
@@ -146,14 +145,6 @@ fn demo_string_index() {
     }
     bytes.push(']');
     println!("bytes is {}", bytes);
-}
-
-
-fn demo_hash_map() {
-    let mut scores = HashMap::new();
-
-    scores.insert(String::from("Blue"), 10);
-    scores.insert(String::from("Yellow"), 50);
 }
 
 #[cfg(test)]
